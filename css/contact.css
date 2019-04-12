@@ -1,0 +1,17 @@
+ul.leaders {
+  list-style-image: url(https://static.wixstatic.com/media/80ed71_fa1e21e9f65843cd91dce868c24ee78f.jpg/v1/fill/w_192,h_201,al_c,q_80,usm_0.66_1.00_0.01/80ed71_fa1e21e9f65843cd91dce868c24ee78f.jpg);
+  width: auto;
+  height: auto;
+  list-style-position: inside;
+}
+
+ul.about {
+  display: block;
+  width: 90%;
+  margin: auto;
+  list-style: block;
+}
+
+.location {
+  font-size: .95em;
+}
