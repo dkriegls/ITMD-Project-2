@@ -1,0 +1,363 @@
+html {
+  background-image: url(https://static.wixstatic.com/media/54e5b921fdf54a1db3802e905a8c53f6.jpg);
+  background-size: cover;
+}
+
+*, *:before, *:after{
+  box-sizing: inherit;
+}
+
+body {
+  font-family: 'Merienda', 'Comfortaa', 'News+Cycle', sans-serif;
+  font-size: 1em;
+  line-height: 1.5em;
+  margin-top: 55px;
+}
+
+.menubar{
+  width: 100%;
+  height: auto;
+  background-color: #2b92ce;
+}
+
+main {
+  width: 100%;
+  background-color: #2b92ce;
+  overflow: hidden;
+  padding: 0 1rem;
+  opacity: 0.95;
+}
+
+nav{
+   z-index: 1;
+}
+
+section{
+  padding: 1rem;
+  background-color: white;
+  overflow: hidden;
+  opacity: 0.8;
+}
+
+footer{
+  padding: 0.4em;
+  background-color: #2b92ce;
+  text-align: center;
+  box-shadow: 0px 0px 1px #62c4b8;
+}
+
+/* Fonts */
+
+h1 {
+  font-size: 40px;
+  line-height: 6rem; 
+  font-weight: 300; 
+  margin: 0;
+} 
+
+h2 {
+  font-size: 28px; 
+  line-height: 3.75rem; 
+  font-weight: 300; 
+  text-align: center;
+}
+
+h3 {
+  font-size: 47px; 
+  font-weight: 400; 
+}
+
+h3.margin{
+  margin: 1em 0;
+}
+
+h4 {
+  font-size: 2.1em;
+  line-height: 2.5rem;  
+  font-weight: 400; 
+  letter-spacing: 0.01em; 
+}
+
+h4.margin{
+  margin: 1.4em 0;
+}
+
+h5 {
+  font-size: 1.5em; 
+  line-height: 2rem;  
+  font-weight: 400; 
+  letter-spacing: normal; 
+}
+
+h5.margin{
+    margin: 1.67em 0;
+}
+
+h6 {
+  font-size: 1.1em; 
+  line-height: 2rem; 
+  font-weight: 400; 
+  letter-spacing: 0.01em;
+}
+
+p {
+  font-size: 1em;
+  line-height: 1.5em;
+  font-weight: 400; 
+  text-align: center;
+  letter-spacing: .03125em; 
+  
+}
+
+p.margin{
+  margin: 1em 0;
+}
+
+.body2 {
+  font-size: .875em; 
+  line-height: 1.25rem;
+  font-weight: 400;
+  letter-spacing: .0178571429em;
+  margin-block-start: 1em;
+  margin-block-end: 1em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+}
+
+.subtitle {
+  font-size: 1em; 
+  line-height: 1.75em; 
+  font-weight: 400;
+  letter-spacing: .009375em; 
+}
+
+.button {
+  font-size: .875em; 
+  line-height: 2.25rem; 
+  font-weight: 500; /* medium */
+  letter-spacing: .0892857143em; 
+  text-transform: uppercase;
+}
+
+.caption {
+  font-size: .75em; 
+  line-height: 1.25rem; 
+  font-weight: 400;
+  letter-spacing: .0333333333em; 
+}
+
+.overline {
+  font-size: .75em;
+  line-height: 2rem;
+  font-weight: 500;
+  letter-spacing: .1666666667em;
+  text-transform: uppercase;
+  padding: 0 0 1rem 0;
+}
+
+.margin
+
+
+/* pictures and videos */
+img, audio, video {
+  display: block;
+  max-width: 100%;
+}
+
+img {
+  margin: 0 auto;      
+}
+
+/* navigation*/
+nav{
+  overflow: hidden;
+  box-shadow: 2px 2px 4px #2b92ce;
+  background-color: white;
+  margin: auto;
+}
+
+
+#logo{
+  display: inline-block;
+  float: right;
+  text-align: right;
+  font-size: 1em; 
+  font-weight: 500; 
+  letter-spacing: .1; 
+  text-transform: uppercase;
+  padding: 10px 2px;
+  margin: auto;
+}
+
+/* Menu bar*/
+#menu{
+  display: inline-block;
+  float: center;
+  text-align: center;
+  font-size: .875em; 
+  line-height: 2rem;
+  font-weight: 300;
+  text-transform: uppercase;
+  /* remove box*/
+  border: none;
+  background: none;
+  padding: 10px 2px;
+  margin: auto;
+}
+
+#menu i{
+  font-size: 27px;
+  vertical-align: middle;
+}
+
+
+/* Sticky navigation bar */
+.topmenu {
+  overflow: hidden;
+  /* sticky navigation */
+  position: fixed;
+  right: 0;
+  top: 0;
+  width: 100%;
+  padding: 0.4em;
+  
+}
+
+.topmenu ul{
+  clear: both;
+}
+
+.topmenu ul li{
+  border-top: solid 2px silver; 
+}
+
+.topmenu a {
+  display: block;
+  color: black;
+  background-color: #2b92ce;
+  text-align: center;
+  padding: 16px 15px;
+  text-decoration: none;
+}
+
+.topmenu a:hover {
+  background-color: silver;
+}
+
+
+.dropmenu{
+  display: none;
+}
+
+.dropmenu a {
+  background-color: #2b92ce;
+  color: white;
+  padding: 8px 12px;
+}
+
+.dropmenu a:hover {
+  background-color: silver;
+}
+
+
+#submenudropdown, #submenudropdown li a.submenubtn
+{
+  background-color: #2b92ce;
+}
+#submenudropdown li a.submenubtn:hover
+{
+  background-color: silver;
+}
+/* queries screens*/
+@media screen and (min-width: 60em) {
+
+  main {
+    max-width: 970px;
+    margin: 0 auto;
+  }
+
+  /* move logo and menu  */
+  #menu{
+    display: none;
+    visibility: hidden;
+    vertical-align: inherit;
+  }
+
+  #logo{
+    float:left;
+    display: inline-block;
+    padding: 14px 16px;
+    margin: 0;
+  }
+
+  /* remove navbar style  */
+  .topmenu ul{
+    clear: none;
+    float: right;
+    padding-bottom: 0px;
+    margin: 0;
+    padding: 0;
+  }
+
+  .topmenu ul li{
+    display: inline-block;
+    padding-top: 0px;
+    border-top: solid 0px white;
+  }
+
+  .topmenu a {
+    display: inline-block;
+    background-color: white;
+  }
+
+  /* make nav bar visible */
+  #navbars{
+    display: inline-block;
+  }
+
+  #container{
+    max-width: 1280px;
+    margin: 0 auto;
+  }
+  
+
+@media screen and (min-width: 100em) {
+
+  main {
+    max-width: 1280px;
+    margin: 0 auto;
+  }
+
+  #navbars{
+    display: inline-block;
+  }
+
+  #container{
+    max-width: 1280px;
+    width: 1280px;
+    margin: 0 auto;
+    overflow: hidden;
+  }
+
+}
+
+
+@media screen and (min-width: 120em) {
+
+  main {
+    max-width: 1600px;
+  }
+
+  /* make nav bar visible */
+  #navbars{
+    display: inline-block;
+  }
+
+  #container{
+    max-width: 1600px;
+    width: 1600px;
+    margin: 0 auto;
+    overflow: hidden;
+  }
+
+}
